@@ -8,6 +8,37 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  }
+
+.brand  {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+  color: #142C48;
+  font-size: 24px;
+  font-weight: bold;
+  }
+  i {
+    margin-left: 20px;
+    color: #FC4337;
+  }
+}
+
+.btn-essayer {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #FC4337;
+  border-radius: 50px;
+  &:hover {
+    background-color: #F87668;
+    color: white;
+  }
 }
 
 /* Logo */
@@ -23,7 +54,7 @@
 }
 
 /* Right section */
-.navbar-wagon-right {
+.navbar-wagon-left {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,8 +68,9 @@
 
 /* Navbar link */
 .navbar-wagon-link {
-  color: #616668;
-  font-size: 14px;
+  color: #142C48;
+  font-size: 16px;
+  font-weight: bold;
 }
 .navbar-wagon-link:hover {
   color: #da552f;
