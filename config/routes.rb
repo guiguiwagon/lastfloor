@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  get 'offre', to: 'pages#offre', as: :offre
   get 'about', to: 'pages#about', as: :about
   get 'contact', to: 'pages#contact', as: :contact
 

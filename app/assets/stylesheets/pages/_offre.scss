@@ -1,0 +1,22 @@
+.timeline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 60px;
+  color: #FC4337;
+  h1 {
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  i {
+    font-size: 60px;
+    color: #FC4337;
+    margin-right: 30px;
+  }
+}
