@@ -283,6 +283,23 @@ transform: rotate(180deg);
   border-radius: 50px;
   margin-bottom: 50px;
 }
+
+.underline-titles5 {
+  border: 10px solid #FF654C;
+  margin-top: 30px;
+  width: 302px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+.underline-titles-offre3 {
+  border: 10px solid #FF654C;
+  margin-top: 30px;
+  width: 332px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
 #comparaison {
   margin-top: 50px;
   margin-bottom: 100px;
@@ -406,5 +423,15 @@ transform: rotate(180deg);
     font-size: 50px;
     text-transform: uppercase;
     color: #142C48;
+  }
+  h2 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #142C48;
+    margin-top: 95px;
   }
 }
